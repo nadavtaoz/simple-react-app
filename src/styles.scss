@@ -1,0 +1,37 @@
+// External Styles
+@import "~bootstrap/scss/bootstrap";
+
+// Global Styles
+@import "styles/global/colors";
+@import "styles/global/variables";
+
+// Component Styles
+@import "styles/components/app.scss";
+@import "styles/components/data-container";
+@import "styles/components/info-progress-bars";
+@import "styles/components/risk-meter";
+@import "styles/components/info-row";
+@import "styles/components/circular-chart";
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  background-color: $general;
+  margin: 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.785714286;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  h1 {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.785714286;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    margin: 0;
+    //opacity: 0.6;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}

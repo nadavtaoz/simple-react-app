@@ -1,0 +1,34 @@
+.data-container {
+  width: $containers-width;
+  background-color: $container-background;
+  max-width: 589px;
+  min-width: 400px;
+  margin-bottom: 20px;
+  min-height: 279px;
+
+  .data-container-headline {
+    padding: 6px 10px;
+    background-color: $headline-background;
+  }
+
+  &.data-container-circular-chart {
+    width: 33.876221498%;
+  }
+
+  @media screen and (max-width: 1360px) {
+    width: $containers-medium-width;
+    max-width: none;
+
+    &.data-container-circular-chart {
+      width: $containers-medium-width;
+    }
+  }
+
+  @media screen and (max-width: 910px) {
+    width: $containers-small-width;
+
+    &.data-container-circular-chart {
+      width: $containers-small-width;
+    }
+  }
+}

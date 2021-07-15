@@ -1,0 +1,32 @@
+.info-row {
+  border-bottom: 1px solid #223B50;
+  margin: 0;
+
+  .col {
+    padding: 0;
+
+    .info-unit {
+      padding: 14px 10px;
+
+      .info-unit-amount {
+        line-height: 1;
+        margin-top: 7px;
+        font-size: 1.25rem;
+      }
+
+      .info-unit-label {
+        margin-top: 2px;
+      }
+    }
+
+    &.right-col {
+      .info-unit {
+        padding-left: 10.78098472%;
+      }
+    }
+  }
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}

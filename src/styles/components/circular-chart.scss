@@ -1,0 +1,30 @@
+.circular-chart {
+  padding: 14px 0;
+
+  .circular-chart-container {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 21px;
+  }
+
+  .circular-chart-data {
+
+    .circular-chart-data-container {
+      display: flex;
+      width: 48.076923077%;
+      margin: 0 auto;
+      justify-content: space-between;
+
+      .circular-chart-data-block {
+        .circular-data-label {
+
+        }
+
+        .circular-data-value {
+          line-height: 1;
+          font-size: 1.25rem;
+        }
+      }
+    }
+  }
+}

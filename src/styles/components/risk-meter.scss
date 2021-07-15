@@ -1,0 +1,36 @@
+.risk-meter {
+  margin-bottom: $containers-margin;
+  max-width: $containers-width;
+
+  .risk-meter-headline {
+
+  }
+
+  .risk-meter-percentage {
+    position: absolute;
+    top: 0;
+    line-height: 31px;
+    right: 10px;
+    font-size: 0.75rem;
+    opacity: 0.6;
+  }
+
+  .risk-meter-progress-bar {
+    position: relative;
+    margin-top: 5px;
+    background-color: $container-background;
+    padding: 13px 10px;
+
+    .progress {
+      height: 5px;
+      width: 87.096774194%;
+      background-color: #1E3648;
+      border-radius: 10px;
+
+      .progress-bar {
+        background: linear-gradient(270deg, #BBB158 6.51%, #4DAFD0 94.42%);
+        border-radius: 10px;
+      }
+    }
+  }
+}

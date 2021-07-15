@@ -1,0 +1,38 @@
+.info-progress-bars-container {
+  padding: 14px 10px 11px;
+
+  .info-progress-bar-container {
+    margin-bottom: 19px;
+
+    .info-progress-bar {
+      position: relative;
+      background-color: #254A69;
+      padding: 5px 0;
+      margin-top: 0;
+
+      .info-progress-bar-percentage {
+        position: absolute;
+        top: 0;
+        line-height: 15px;
+        right: 10px;
+        font-size: 0.75rem;
+        opacity: 0.6;
+      }
+
+      .progress {
+        height: 5px;
+        width: 87.096774194%;
+        background-color: #1E3648;
+        border-radius: 10px;
+
+        .progress-bar {
+          background: linear-gradient(270deg, #8DB4D3 6.51%, #8DB4D3 94.42%);
+        }
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
