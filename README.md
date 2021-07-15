@@ -1,5 +1,6 @@
-![Screenshot from 2021-07-15 09-14-15](https://user-images.githubusercontent.com/2677593/125738373-ec673bce-585e-47f8-976f-e18ff20cc0f3.png)
 # Nadav Taoz Simple React App
+
+![Screenshot from 2021-07-15 09-14-15](https://user-images.githubusercontent.com/2677593/125738373-ec673bce-585e-47f8-976f-e18ff20cc0f3.png)
 
 ## General
 
